@@ -1,6 +1,15 @@
 import java.math.BigInteger;
 
 public class plusOne {
+//    static void addNumber(int[] digits){
+//        int num =0;
+//        for (int i=0; i<digits.length; i++){
+//            int currNum = digits[i];
+//            num = num*10 + currNum;
+//        }
+//        num = num + 1;
+//        System.out.println("Number : "+num);
+//    }
     public int[] plusOneByStr(int[] digits){
 
         int carry = 1;
