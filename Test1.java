@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
 public class Test1 {
 //    public static void method(int[] n){
 //        n[1] = 5;
@@ -5,13 +9,13 @@ public class Test1 {
 //        n[3]=7;
 //    }
     public static void main(String[] args) {
-        int[] N = {1,2,3,4};
-        Test2 test2 = new Test2();
-        test2.method(N);
-        for (int i=0; i<N.length; i++)
-        {
-            System.out.println(N[i]);
-        }
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(2,4);
+        map.put(1,5);
+        map.put(4,2);
+        map.put(3,3);
+        System.out.println(map);
+
 
     }
 }
